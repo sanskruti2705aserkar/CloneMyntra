@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Myntra Clone</title>
+  <link rel="icon" type="image/png" href="images/myntra_logo.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="utils.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="containerHeader flex space-between items-center">
+    <div class="left flex items-center">
+      <img src="images/myntra_logo.png" alt="Myntra Logo">
+      <ul class="flex items-center category-list">
+        <li data-category="men">Men</li>
+        <li data-category="women">Women</li>
+        <li data-category="kids">Kids</li>
+        <li data-category="home">Home & Living</li>
+        <li data-category="beauty">Beauty</li>
+        <li data-category="studio">Studio</li>
+      </ul>
+    </div>
+    <div class="right flex items-center">
+      <div class="search-container">
+        <input type="text" placeholder="Search for products, brands and more">
+        <span class="search-icon">&#128269;</span>
+      </div>
+      <div class="rightBox flex items-center">
+        <div class="profile mx-2">Profile</div>
+        <div class="wishlist mx-2">Wishlist</div>
+        <div class="bag mx-2">Bag</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Banners -->
+  <section id="banner-section" class="container flex flex-wrap justify-center">
+    <img class="homeImg" src="images/banner1.jpg" alt="Banner 1">
+    <img class="homeImg" src="images/banner2.jpg" alt="Banner 2">
+    <img class="homeImg" src="images/banner3.jpg" alt="Banner 3">
+    <img class="homeImg" src="images/banner4.jpg" alt="Banner 4">
+    <img class="homeImg" src="images/banner5.jpg" alt="Banner 5">
+    <img class="homeImg" src="images/banner6.jpg" alt="Banner 6">
+  </section>
+
+  <!-- Product Section -->
+  <section id="product-section" class="container flex flex-wrap justify-center">
+    <h2>Select a category to view products</h2>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 myntra.com | All rights reserved
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
